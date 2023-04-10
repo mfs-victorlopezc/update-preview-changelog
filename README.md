@@ -157,8 +157,8 @@ FaceTecLogging.info("NewEnrollmentResponse: fraudUserListSearchResult.searchResu
 
 -  Add lines of code, for the API response and code refactor [Match3D2DIDScanResponse](/facetec-servers/FaceTecSDK-custom-server-[version]/src/main/java/com/facetec/customserver/jsonObjects/responses/Match3D2DIDScanResponse.java) class:
 
-- Added code to extract the template name and type from the OCR results of the ID scan and store it in the response object for later use.
-- Added code to set the `isFakeImage` variable of the response object based on certain conditions.
+  + Added code to extract the template name and type from the OCR results of the ID scan and store it in the response object for later use.
+  + Added code to set the `isFakeImage` variable of the response object based on certain conditions.
 
 ```java
 String ocrData = match3D2DIDScanResult.ocrResults;
