@@ -173,7 +173,13 @@ try {
     FaceTecLogging.info("Match3D2DIDScanResponse: Template name not found");
 }
 
-// Assign the extracted template name and type to the response object
+/* `this.templateName = templateNameAndType;` is assigning the value of `templateNameAndType`
+    to the `templateName` variable of the `Match3D2DIDScanResponse` object. The
+    `templateNameAndType` variable is extracted from the OCR results of the ID scan and contains
+    the name and type of the OCR template used for the scan. This line of code is storing that
+    information in the response object for later use.
+*/
+  
 this.templateName = templateNameAndType;
 
 ....
